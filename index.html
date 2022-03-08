@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Laboratorio de desarrollo de aplicaciones Web (Gpo 1)</title>
+  </head>
+  <body class = "position-relative" >
+    <nav id="materia" class="navbar sticky-top navbar-dark bg-dark px-3 ">
+      <a class="navbar-brand" href="#">Laboratorio de desarrollo de aplicaciones Web (Gpo 1)</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link text-light bg-dark" href="#anuncios">Anuncios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light bg-dark" href="#modulos">Módulos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light bg-dark" href="#calificaciones">Calificaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light bg-dark" href="#profesor">Profesor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light bg-dark" href="#personas">Personas</a>
+          </li>
+        </ul>
+      </nav>
+    <div data-bs-spy="scroll"  data-bs-target="#materia" data-bs-offset="0" class = "container-fluid scrollspy-example" tabindex="0">
+        <h4 id="anuncios"><br>Anuncios</h4>
+        <div class="card" style="width: 23rem;">
+            <div class="card-body">
+              <h5 class="card-title">Aula Virtual</h5>
+              <h6 class="card-subtitle mb-2 text-muted">12 de feb de 2022 en 16:36</h6>
+              <p class="card-text">Estimado(a) estudiante, <br>
+                Te compartimos la liga de acceso a tu aula virtual Zoom en donde te encontrarás con tu profesor(a) y tus compañeros(as) de clase:
+                <a href="https://itesm.zoom.us/j/5244836770" class="card-link">https://itesm.zoom.us/j/5244836770</a> <br>
+                Consulta protocolos e información importante para el regreso consciente a través de la liga: <br>
+                <a href="https://tec.mx/es/regreso-conscienteEnlaces" class="card-link"> https://tec.mx/es/regreso-conscienteEnlaces</a></p>
+            </div>
+          </div>
+        <h4 id="modulos"><br>Módulos</h4>
+        <div class = "row text-center justify-content-center">
+            <div class="card flex-column" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Semana 1</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">14 feb 2022 - 21 feb 2022</h6>
+                  <ul class="list-group">
+                    <li class="list-group-item">Generales del desarrollo Web</li>
+                    <li class="list-group-item">Quiz 1</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="card column" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Semana 2</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">21 feb 2022 - 28 feb 2022</h6>
+                  <ul class="list-group">
+                    <li class="list-group-item">Arquitecturas</li>
+                    <li class="list-group-item">Wireframe/ Mockup/Prototipo</li>
+                    <li class="list-group-item">Conocimientos Generales</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card column" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Semana 3</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">28 feb 2022 - 7 mar 2022</h6>
+                  <ul class="list-group">
+                    <li class="list-group-item">Actividad de la 3er semana</li>
+                    <li class="list-group-item">Repaso Bootstrap</li>
+                    <li class="list-group-item">Git_Tutorial</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card column" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Semana 4 <span class="badge bg-primary">Actual</span></h5>
+                  <h6 class="card-subtitle mb-2 text-muted">7 mar 2022 - 14 mar 2022</h6>
+                  <ul class="list-group">
+                    <li class="list-group-item">Aplicaciones móviles</li>
+                    <li class="list-group-item">Especificación del proyecto</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card column" style="width: 20rem;">
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                      <span class="placeholder col-6 badge bg-secondary">Semana 5</span>
+                      <span class="badge bg-secondary">Próximamente</span>
+                    </h5>
+                    <p class="card-text placeholder-glow">
+                      <span class="placeholder col-7"></span>
+                      <span class="placeholder col-4"></span>
+                      <span class="placeholder col-4"></span>
+                      <span class="placeholder col-6"></span>
+                      <span class="placeholder col-8"></span>
+                    </p>
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+              </div>
+            </div>
+        </div>
+        <h4 id="calificaciones"><br>Calificaciones</h4>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">0.8/1</div>
+        </div>
+        <p>Quiz 1</p>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100/100</div>
+        </div>
+        <p>Actividad de la 3er semana</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100/100</div>
+      </div>
+      <p>Quiz 2</p>
+      <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100/100</div>
+      </div>
+      <p>Avance proyecto 1</p>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90/100</div>
+    </div>
+    <p>Quiz 3</p>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100/100</div>
+    </div>
+    <p>Avance proyecto 2</p>
+        <h4 id="profesor">Profesor</h4>
+        <h6>Sergio Gabriel Gallegos Arteaga (profesor titular)</h6>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">  	
+                Horario de asesorías
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                   <u> Miércoles y Viernes  14:00 a 15:00 hrs</u>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Medio de asesorías
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    <a href="https://itesm.zoom.us/j/5244836770"> https://itesm.zoom.us/j/5244836770</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Correo electrónico
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    <u>sgallegos@tec.mx</u>
+                </div>
+              </div>
+            </div>
+          </div>
+        <h4 id="personas"> <br> Personas</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Ana Carolina Arellano Alvarez</li>
+            <li class="list-group-item">Guilherme Bittencourt De Borba</li>
+            <li class="list-group-item">Alejandro Cedillo Gámez</li>
+            <li class="list-group-item">Juan Pablo Díaz López</li>
+            <li class="list-group-item">José Miguel Elizalde Moncayo</li>
+            <li class="list-group-item">Enrique Elizondo Villegas</li>
+            <li class="list-group-item">Sergio Gabriel Gallegos Arteaga</li>
+            <li class="list-group-item">Nadia Corina García Orozco</li>
+            <li class="list-group-item">José Ernesto García Torales</li>
+            <li class="list-group-item">Roberto García Torres</li>
+            <li class="list-group-item">Guillermo Andrés García Vázquez</li>
+            <li class="list-group-item">Guilherme Bittencourt De Borba</li>
+            <li class="list-group-item">Jaime Eugenio Garza Garza</li>
+            <li class="list-group-item">José Elías Garza Vázquez</li>
+            <li class="list-group-item">Diego Gómez Cota</li>
+            <li class="list-group-item">Jesús Adrián González Montemayor</li>
+            <li class="list-group-item">Eduardo González Torres</li>
+            <li class="list-group-item">Sergio Guasso Idalias</li>
+            <li class="list-group-item">Diego Armando Guerrero Martínez</li>
+            <li class="list-group-item">Ulises Gilberto Lugo Fletes</li>
+            <li class="list-group-item">David Luna De León</li>
+            <li class="list-group-item">Mariana Martínez Celis González</li>
+            <li class="list-group-item">Adrián Montemayor Rojas</li>
+            <li class="list-group-item">Ulrik Alberto Nuño Tapia</li>
+            <li class="list-group-item">Eduardo Pineda Guerra</li>
+            <li class="list-group-item">Sofía Pamela Recinos Dorst</li>
+            <li class="list-group-item">Álvaro Alejandro Rodríguez González</li>
+            <li class="list-group-item">Rodrigo de Jesús Ruíz Kwok</li>
+            <li class="list-group-item">Mariafernanda Salas Martínez</li>
+            <li class="list-group-item">Javier Adrian Villa León</li>
+            <li class="list-group-item">Jaime Hisao Yesaki Hinojosa</li>
+            <br>
+        </ul>
+      </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
